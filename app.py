@@ -32,7 +32,7 @@ st.markdown("Explore neighborhoods in Milan based on property value and growth p
 
 # Display table
 st.write(f"Showing {len(filtered_df)} properties")
-st.dataframe(filtered_df[["district", "price", "area_sqm", "growth_cluster_label"]])
+st.dataframe(filtered_df[["District", "price", "area_sqm", "growth_cluster_label"]])
 
 # Map
 st.subheader("📍 Property Map")
