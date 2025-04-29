@@ -5,7 +5,7 @@ import folium
 from streamlit_folium import folium_static
 
 # Load data
-df = pd.read_csv("realistic_milan_data.csv")
+df = pd.read_csv("realistic_milan_data_with_cluster.csv")
 
 # Title
 st.title("🏙️ Investment Potential in Milan")
