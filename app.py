@@ -9,7 +9,7 @@ df = pd.read_csv("realistic_milan_data_with_cluster.csv")
 
 # Fix the missing label mapping
 cluster_map = {0: 'low', 1: 'medium', 2: 'high'}
-df['growth_cluster_label'] = df['growth_cluster'].map(cluster_map)
+df['growth_cluster_label'] = df['growth_cluster_label'].map(cluster_map)
 
 # Sidebar filters
 st.sidebar.header("Filter properties")
